@@ -20,7 +20,8 @@
     * -t 目标文件地址（一般为/var/www/html）
     * -m 备份的被植入的文件（备份别人写上来的木马）
     * -l 日志文件位置
-  -s参数是必须的，-m默认为'/tmp/monitor'、-l默认为/tmp/log、-t默认为/var/www/html
+    
+  只有-s参数是必须的，-m默认为'/tmp/monitor'、-l默认为/tmp/log、-t默认为/var/www/html
     
 ## 不足：
 1. 使用XFTP，在/tmp/html中新建文件时，可能会在/var/www/html生成一个New File文件，只有重新运行脚本才能删除。
