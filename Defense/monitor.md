@@ -1,7 +1,7 @@
 
 ## 使用：
 
-1. 备份hmtl目录到/tmp/html
+1. 备份/var/www/html目录到/tmp/html
 2. 运行monitor.py  
 3. 在/tmp/html文件内修改内容
 4. 运行`python monitor.py -s /tmp/html -t /var/www/html -l /tmp/log -m /tmp/monitor`或 `python monitor.py -s /tmp/html`
