@@ -135,8 +135,6 @@ def main():
     obj.file_exits()
     while 1:
         obj.check_changed()
-        time.sleep(1000)
-
 
 if __name__ == '__main__':
     main()
